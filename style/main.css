@@ -1,0 +1,281 @@
+body{
+    background-color: rgb(2, 24, 35);
+    color: white;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0;
+    padding: 0px;
+    margin: 0 auto;
+
+
+}
+.header{
+    text-align: center;
+}
+
+.span1{
+    animation-name: Na;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes Na {
+    from {
+        top:0;
+        transform: translateY(-200px);
+        color: blue;
+    }
+    to {
+        top:100px;
+        transform: translateY(-200px);
+        color: transparent;
+    }
+}
+.span2{
+    animation-name: a;
+    animation-duration: 3s;
+    animation-delay: 1.4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes a {
+    from{
+        top: 0;
+        transform: translateX(-180px);
+        color: yellow;
+    }
+    to{
+        top: 90px;
+        transform: translateY(-180px);
+        color: transparent;
+    }
+}
+.span3{
+    animation-name: t;
+    animation-duration: 3s;
+    animation-delay: 1.3s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes t {
+    from{
+        top: 0;
+        transform: translateX(-160px);
+        color: gray;
+    }
+    to{
+        top: 80px;
+        transform: translateY(-160px);
+        color: transparent;
+    }
+}
+.span4{
+    animation-name: tt;
+    animation-duration: 3s;
+    animation-delay: 1.2s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes tt {
+    from{
+        top: 0;
+        transform: translateX(-140px);
+        color: rgb(199, 42, 42);
+    }
+    to{
+        top: 80px;
+        transform: translateY(-140px);
+        color: transparent;
+    }
+}
+.span5{
+    animation-name: e;
+    animation-duration: 3s;
+    animation-delay: 1.1s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes e {
+    from{
+        top: 0;
+        transform: translateX(-120px);
+        color: aquamarine;
+    }
+    to{
+        top: 80px;
+        transform: translateY(-120px);
+        color: transparent;
+    }
+}
+.span6{
+    animation-name: r;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes r{
+    from{
+        top: 0;
+        transform: translateX(-100px);
+        color: darkolivegreen;
+    }
+    to{
+        top: 80px;
+        transform: translateY(-100px);
+        color: transparent;
+    }
+}
+.span7{
+    animation-name: y;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes y{
+    from{
+        top: 0;
+        transform: translateX(-80px);
+        color: brown;
+    }
+    to{
+        top: 80px;
+        transform: translateY(-80px);
+        color: transparent;
+    }
+}
+.middle{
+    animation-name: battery;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    top: 100px;
+    margin: 0 auto;
+   position: relative;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   
+    border-radius: 12px;
+}
+@keyframes battery{
+    0%{
+        width: 300px;
+        background-color: rgb(0, 255, 0);
+    }
+    100%{
+        width: 0px;
+        background-color: rgb(251, 3, 3);
+        border-radius: 12px;
+    }
+}
+.middle-color{
+    width: 300px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.circle{
+    animation-name: circle;
+    position: relative;
+    width: 150px;
+    height: 150px;
+   
+    
+    border-radius: 50%;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: gray;
+    border: 2px  yellowgreen;
+}
+@keyframes circle{
+    from{
+        top: 0;
+        transform: translateX(0px);
+    }
+    10%{
+        background-color: yellow;
+        
+      
+    }
+    20%{
+        background-color: aqua;
+       
+    }
+    30%{
+       
+        background-color: rgb(35, 3, 65);
+    }
+    40%{
+       
+        
+        background-color: rgb(78, 141, 141);
+    }
+    50%{
+        
+        background-color: blue;
+    }
+    60%{
+        
+        background-color: gray;
+    }
+    70%{
+        background-color: rgb(88, 88, 237);
+        
+    }
+    80%{
+        
+        background-color: cadetblue;
+    }
+    90%{
+        background-color: blueviolet;
+      
+    }
+    100%{
+        background-color: rgb(114, 0, 222);
+       
+        
+    }
+    
+
+}
+.kv{
+    animation-name: kv;
+    width: 400px;
+    position: relative;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    height: 160px;
+    border-radius: 12px;
+    border: 2px solid blueviolet;
+}
+@keyframes kv{
+    from{
+        right: 0;
+        border-color: yellow;
+    }
+    to{
+        right:240px;
+        border-color: green;
+        
+    }
+}
